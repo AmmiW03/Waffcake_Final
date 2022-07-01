@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos |Wafcake|</title>
+    <link rel="stylesheet" href="E-gastos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <header>
+            <div id="cabeza-titulo">
+                <label>
+                    <a href="" id="vinculo-logo"><img src="imgS/WaffCake_Logo.png" alt="LOGO" id="logo-waff"></a>
+                </label>
+                <label>
+                    <p id="titulares">La<a href=""><img src="imgS/Home-2-2-icon.png" alt="" id="img-casa"></a>del Waffcake</p>
+                </label>
+                <label>
+                    <a class="btn" type="button" href="A-Login.html" id="cerrar-sesión">Cerrar sesión</a>
+                </label>
+            </div>
+        </header>
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+        <form class="blocks-ventaWaf">
+            <div>
+                <img src="imgS/gastos operativos.png" alt="" class="imagen-gasto" id="operativo">
+                <p class="campo-datos" >Operativos</p>
+                
+                <input type="number" id="gasto-1">
+
+            </div>
+            <div>
+                <img src="imgS/gastos_personales.png" alt="" class="imagen-gasto" id="img-Servicios">
+                <p class="campo-datos">Servicios</p> 
+
+                <input type="number" id="gasto-2">
+
+            </div>
+            <div>   
+                <img src="imgS/proveedores.png" alt="" class="imagen-gasto" id="Proveedores">
+                <p class="campo-datos">Proveedores</p> 
+
+                <input type="number" id="gasto-3">
+
+            </div>
+                <p id="GASTOS">
+                    <strong>Gastos totales: <span id="totales-venta"></span></strong>
+                </p>
+            </div>
+        </form>
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    </div>
+    
+    <div id="pie">
+        <div for="">
+            <a href="C-Dash.html" class="btn" id="REGRESAR" type="button">REGRESAR</a>
+        </div>
+        <div for="">
+            <a class="btn" id="GENERAL" type="button" href="D-Ventas.html">VENTAS</a>
+        </div>
+        <div for="">
+            <button class="btn" id="CAJA" type="button" onclick="calculoGasto()">PAGAR</button>
+        </div>  
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+</html>
+
+<!-- 
+
+    <div class="conceptos-pago">
+            <div>
+
+                <img src="imgS/gastos operativos.png" alt="" class="img-gastos">
+
+                <label for="">
+                    <button class="btn" id="GENERAL" type="button">Servicios</button>
+                </label>
+
+            </div>
+
+            <div>
+
+                <img src="imgS/gastos_personales.png" alt="" class="img-gastos">
+                
+                <label for="">
+                    <button class="btn" id="GENERAL" type="button">Bienes primarios </button>
+                </label>
+                <label for="" class="labelGP">
+                    <input class="camposgp"   id="gp" type="text"  placeholder="Ingrese el monto de los gastos personales" required>
+                </label>
+            </div>
+
+            <div>
+
+                 <img src="imgS/proveedores.png" alt="" class="img-gastos">
+
+                 <label for="">
+                    <button class="btn" id="GENERAL" type="button">Proveedores</button>
+                </label>
+                
+
+            </div>
+            <div>
+                <p id="VENTAS">
+                    <strong>Ventas totales: <span id="totales-gasto"></span></strong>
+                </p>
+            </div>   
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+ -->

@@ -1,0 +1,162 @@
+/* - - - - - - - - - - PROPIEDADES UNIVERSALES - - - - - - - - - - */
+*{
+    /*Esta propiedad mantiene la medida concretas*/
+    box-sizing: border-box; /* Suma margen interno y externo*/
+    padding: 0px;
+    margin: 0px;
+    font-family: "Century Gothic";
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: #f3ead1;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+#cabeza-titulo{
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 50px 10px #2e2d2d; */
+    background: rgb(218, 243, 148);
+    border-color: #faf890;
+    border-radius: 10px;
+    border: solid;
+    font-size: 40px;
+    font-weight: bolder;    
+}
+
+#logo-waff{
+    width: 60px;
+    margin: 0px 20px
+}
+
+#img-casa{
+    width: 30px;
+    margin: 0px 10px;
+}  
+
+.imagen-gasto{
+    width: 200%;
+
+    margin-left: 45px;
+}
+
+#operativo{
+    margin: 2px 80px;
+}
+
+#img-Servicios{
+    margin-bottom: 20px;
+}
+
+#Proveedores{
+    margin: 50px 80px;
+}
+
+input{
+    margin-left: 30px;
+}
+
+.blocks-ventaWaf{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 3rem;
+
+    align-content: center;
+
+    margin-top: 50px;
+    background: #faf7ee;
+    border: solid;
+    border-radius: 10px;
+}
+
+.blocks-ventaWaf div{
+    width: 200px;
+    padding: 50px;
+}
+
+.blocks-ventaWaf div input{
+    border-radius: 10px;
+    border: solid;
+
+    margin-top: 20px;
+    text-align: center;
+    width: 300%;
+    padding: 10%;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.blocks-ventaWaf div p{
+    text-align: center;
+    margin-left: 70px;
+}
+
+#pie{
+    width: 90%;
+    margin: auto;
+    border: solid;
+    background: rgb(218, 243, 148);
+}
+
+#pie{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.btn{
+    /*Aparece el puntor encima del elemento botón*/
+    cursor: pointer;
+    /*Caja en linea*/
+    display: inline-block;
+    /*Peso de la fuente*/
+    font-weight: bold;
+    padding: 20px 20px;
+    background: rgb(243, 226, 148);
+    color:#000000;
+    font-size: 15px;
+    border:1px solid #000000; 
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+#cerrar-sesión{
+    position: absolute;
+    right: 0;
+    margin: -25px 115px; 
+} 
+
+.blocks-ventaWaf p{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+

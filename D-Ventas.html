@@ -1,0 +1,77 @@
+ ola<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas |Wafcake|</title>
+    <link rel="stylesheet" href="D-Ventas.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div id="cabeza-titulo">
+                <label>
+                    <a href="" id="vinculo-logo"><img src="imgS/WaffCake_Logo.png" alt="LOGO" id="logo-waff"></a>
+                </label>
+                <label>
+                    <p id="titulares">La<a href=""><img src="imgS/Home-2-2-icon.png" alt="" id="img-casa"></a>del Waffcake</p>
+                </label>
+                <label>
+                    <a class="btn" type="button" href="A-Login.html" id="cerrar-sesión">Cerrar sesión</a>
+                </label>
+            </div>
+        </header>
+
+        <div class="blocks-ventaWaf">
+            <div>
+                <img src="imgS/wafle_animate.png" alt="" class="imagen-venta">
+                <p class="campo-datos">Wafles</p>
+                <select name="" class="select" id="Wafles" required>
+                    <option selected disabled value=""> Selecciona un postre</option>
+                    <option value="112">$112 Deleite de Fresas / resas naturales con crema chantilly, helado de vainilla      </option>
+                    <option value="116">$116 Arequipe / dulce de leche tipo cajeta, con crema chantilly y helado de vainilla </option>
+                    <option value="118">$118 Waff Nutella / helado de vainilla (1 bola) y crema chantilly.                   </option>
+                </select>
+            </div>
+            <div>
+                <img src="imgS/hotkakes_animate.png" alt="" class="imagen-venta">
+                <p class="campo-datos">HotKakes</p>
+                <select name="" class="select" id="HotKakes" required>
+                    <option selected disabled value=""> Selecciona un postre</option>
+                    <option value="110">$110 Hawaianos / Rellenos de piña y copeteados con coco rallado   </option>
+                    <option value="70">$70 California / Esponjaditos y rellenos de granola.               </option>
+                    <option value="120">$120 Suizos / Rellenos de manzana fresca picada, cajeta y pasas.  </option>
+                </select>
+            </div>
+            <div>   
+                <img src="imgS/frape_animate.png" alt="" class="imagen-venta">
+                <p class="campo-datos">Frapes</p>
+                <select name="" class="select" id="Frapes" required>
+                    <option selected disabled value=""> Selecciona un postre</option>
+                    <option value="78">$78 Mocha Blanco / Una mezcla de chocolate Blanco con café, hielo y leche.                    </option>
+                    <option value="80">$80 Caramel Frappuccino / El jarabe de caramelo se encuentra con el café, la leche y el hielo </option>
+                    <option value="85">$85 Vainilla Cream Frappuccino / Rica y cremosa mezcla de vainilla                            </option>
+                </select>
+            </div>
+                <p id="VENTAS">
+                    <strong>Ventas totales: <span id="totales-venta"></span></strong>
+                </p>
+            </div>
+        </div>
+
+    <div id="pie">
+        <div for="">
+            <a href="C-Dash.html" class="btn" id="REGRESAR" type="button">REGRESAR</a>
+        </div>
+        <div for="">
+            <a class="btn" id="GENERAL" type="button" href="E-Gastos.html">GASTOS</a>
+        </div>
+        <div for="">
+            <button class="btn" id="vender" type="button" onclick="calculoVentas()">VENDER</button>
+        </div>  
+    </div>
+
+    <script src="Main.js"></script>
+</body>
+</html>

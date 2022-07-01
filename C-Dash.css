@@ -1,0 +1,167 @@
+/* - - - - - - - - - - PROPIEDADES UNIVERSALES - - - - - - - - - - */
+*{
+    /*Esta propiedad mantiene la medida concretas*/
+    box-sizing: border-box; /* Suma margen interno y externo*/
+    padding: 0px;
+    margin: 0px;
+    font-family: "Century Gothic";
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: #f3ead1;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+#cabeza-titulo{
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 0 50px 1px #2e2d2d; */
+    background: rgb(218, 243, 148);
+    border-color: #faf890;
+    border-radius: 10px;
+    border: solid;
+    font-size: 40px;
+    font-weight: bolder;    
+}
+
+#name-user{
+    font-size: 20px;
+    margin-top: 15px;
+
+    position: absolute;
+    right: 0;
+    margin: -25px 278px;
+}
+
+#name-user:hover{
+    border-bottom: 3px solid #000000;
+    color: rgb(29, 215, 240);;
+}
+
+#cerrar-sesión{
+    position: absolute;
+    right: 0;
+    margin: -25px 115px; 
+} 
+
+#logo-waff{
+    width: 60px;
+    margin: 0px 20px
+}
+
+#img-casa{
+    width: 30px;
+    margin: 0px 10px;
+}  
+
+#titulares{
+    margin-right: 20px;
+}
+
+/* - - - - - - - - - - - - - - -  Bloques de división - - - - - - - - - - - - - - -  */
+
+.blockGrafic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 5rem;
+     
+    margin-top: 40px;
+}
+
+.blockGrafic div ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockGrafic div ul li{
+    margin-top: 40px;
+}
+
+.blockGrafic ul{
+    background: #faf7ee;
+    border: solid;
+    /* box-shadow: 0 0 50px 1px #2e2d2d; */
+    border-radius: 10px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.grafic-example{
+    width: 200px;
+}
+
+/* ICONO DE CABECERA */
+.producto-caja{
+    font-weight: bolder;
+    font-size: 150%;
+    width: 50%;
+    padding: 20px;
+
+    text-align: center;
+    /* box-shadow: 0 0 50px 10px #2e2d2d; */
+    border-radius: 10px;
+}
+
+.leyenda-btn{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.btn{
+    /*Aparece el puntor encima del elemento botón*/
+    cursor: pointer;
+    /*Caja en linea*/
+    display: inline-block;
+    /*Peso de la fuente*/
+    font-weight: bold;
+    padding: 20px 20px;
+    background: rgb(243, 226, 148);
+    color:#000000;
+    font-size: 15px;
+    border:1px solid #000000; 
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    opacity: .7;
+}
+
+#pie{
+    width: 90%;
+    margin: auto;
+
+    border: solid;
+    background: rgb(218, 243, 148);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-top: 30px;
+
+    align-items: center;
+    align-content: center;
+    /* box-shadow: 0 0 50px 2px #2e2d2d; */
+}  
+
+
